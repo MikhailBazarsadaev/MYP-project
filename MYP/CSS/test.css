@@ -1,0 +1,193 @@
+.logot {
+    width: 50px;
+    height: 50px; 
+    margin-right: 30px;
+    margin-left: 20px;
+}
+body {
+    font-family: Dax-Pro, sans-serif;
+    background-color: #ededed;
+    margin: 3px;
+    padding-bottom: 20px;
+}
+@font-face {
+    font-family: Dax-Pro;
+    src: url(daxpro-light.otf);
+}
+p {
+    margin-right: 100px;
+    font-size: 18px;
+}
+h1 {
+    font-size: 40px;
+}
+footer {
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #0f2345;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ebaf29;  
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ebaf29;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.my-profile {
+    font-size: 20px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+.main {
+    margin-bottom: 100px;
+}
+.featureshead {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+    margin-top: 0px;
+}
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 25px;
+}
+.feature {
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.topic {
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.indev-icon {
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    margin-left: 75px;
+}
+.indev {
+    display: grid;
+    grid-template-columns: 900px 450px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+    margin-top: 0px;
+    gap: 50px;
+}
+.attention {
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.indev-seq {
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.comparison {
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 50px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.created {
+    border-right: 6px solid #0f2345;
+}
+.indev-head {
+    font-size: 22px;
+}
+.indev-decor {
+    background-color: white;
+    border-radius: 100000px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

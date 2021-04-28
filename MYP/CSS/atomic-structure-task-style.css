@@ -1,0 +1,26 @@
+@import 'test.css';
+.registerbtn {
+    background-color: #ebaf29;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+  }
+  
+.registerbtn:hover {
+    opacity: 0.9;
+}
+.question {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-size: 20px;
+}
+h3 {
+  font-size: 24px;
+}

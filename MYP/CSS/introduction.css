@@ -1,0 +1,15 @@
+@import 'atomic-structure.css';
+.tshirt-icon {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+}
+.physical-items {
+    display: grid;
+    grid-template-columns: 900px 850px;
+}
+.items {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}

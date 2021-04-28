@@ -1,0 +1,21 @@
+@import 'test.css';
+.tools {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 10%;
+    background-color: white;
+    margin-left: 75px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.html-icon {
+    margin-left: 200px;
+    width: 250px;
+    height: 150px;
+}
+.xampp-icon {
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+}

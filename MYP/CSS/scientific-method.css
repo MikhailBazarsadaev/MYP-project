@@ -1,0 +1,27 @@
+@import 'atomic-structure.css';
+.scheme {
+    margin: 25px;
+    width: 500px;
+    height: 500px;
+    display: grid;
+}
+.explanation {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    gap: 50px;
+    padding-left: 10%;
+    background-color: #d9c8b8;
+}
+.steps {
+    font-size: 21px;
+}
+.example {
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+body {
+    font-size: 20px;
+}

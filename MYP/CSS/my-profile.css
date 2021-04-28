@@ -1,0 +1,19 @@
+@import 'test.css';
+
+.db-info {
+    margin: 40px;
+    font-size: 20px;
+}
+.registerbtn {
+    background-color: #ebaf29;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+}
+.registerbtn:hover {
+    opacity: 0.9;
+  }
